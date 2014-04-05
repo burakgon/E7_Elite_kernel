@@ -645,7 +645,6 @@ ifeq ($(shell $(CONFIG_SHELL) $(srctree)/scripts/gcc-goto.sh $(CC)), y)
 endif
 
 #Gionee lingfen 2012-12-4 merge gionee start
--include $(PWD)/../$(GN_KCONFIG_TMP_FILE)
 KBUILD_CFLAGS += $(GN_CFLAGS)
 #Gionee lingfen 2012-12-4 merge gionee end
 # Add user supplied CPPFLAGS, AFLAGS and CFLAGS as the last assignments
